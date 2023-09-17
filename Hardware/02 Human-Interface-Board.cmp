@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPCB (2011-03-18 BZR 2904)-stable date = Sat 07 May 2011 13:21:47 CEST
+
+BeginCmp
+TimeStamp = /4DC4E4AF;
+Reference = C1;
+ValeurCmp = 220n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E535;
+Reference = C2;
+ValeurCmp = 220µ;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC50190;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E4BD;
+Reference = C4;
+ValeurCmp = 47n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5D0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5A1;
+Reference = P1;
+ValeurCmp = Speaker;
+IdModule  = pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5F9;
+Reference = P2;
+ValeurCmp = CONN_5X2;
+IdModule  = vasch_strip_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E27A;
+Reference = Q1;
+ValeurCmp = ELEKTRETMIC;
+IdModule  = MCE_100;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5B3;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5C1;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E790;
+Reference = R3;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E789;
+Reference = R4;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E78F;
+Reference = R5;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E575;
+Reference = R6;
+ValeurCmp = 10;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E5AC;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E556;
+Reference = RV1;
+ValeurCmp = POTIALPS_10k;
+IdModule  = POTI_ALPS_RK09_HMVA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E306;
+Reference = SW1;
+ValeurCmp = Minus;
+IdModule  = SW_Push_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E30B;
+Reference = SW2;
+ValeurCmp = Plus;
+IdModule  = SW_Push_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E311;
+Reference = SW3;
+ValeurCmp = Select;
+IdModule  = SW_Push_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E30F;
+Reference = SW4;
+ValeurCmp = Save;
+IdModule  = SW_Push_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DC4E4E8;
+Reference = U1;
+ValeurCmp = LM386_;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe

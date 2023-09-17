@@ -1,0 +1,260 @@
+# EESchema Netlist Version 1.1 created  Sat 03 Dec 2011 19:11:16 CET
+(
+ ( /4DD6BCFC CP_5x11mm C1 100µ
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4EDA638A CP_5x11mm C2 100µ
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4EDA6393 CP_5x11mm C3 100µ
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4D603705 SM1206 C4 22p
+  ( 1 VSS )
+  ( 2 N-000047 )
+ )
+ ( /4D60370A SM1206 C5 22p
+  ( 1 VSS )
+  ( 2 N-000043 )
+ )
+ ( /4D652D0B SM1206 C6 470n
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4EDA638B SM1206 C7 470n
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4EDA6392 SM1206 C8 470n
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4D6964F6 SM1206 C9 100n
+  ( 1 /V_0 )
+  ( 2 VSS )
+ )
+ ( /4EDA36F6 SM1206 C10 100n
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /4EDA5B08 D3 D1 DIODESCH
+  ( 1 N-000046 )
+  ( 2 //MCLR )
+ )
+ ( /4D696D68 PIN_ARRAY_5x1 P1 CONN_5
+  ( 1 /LED_ENABLE )
+  ( 2 /LED_LATCH_ENABLE )
+  ( 3 /LED_SHIFT_OUT )
+  ( 4 /SPARE )
+  ( 5 /LED_SERIAL_CLOCK )
+ )
+ ( /4D696D61 PIN_ARRAY_5x1 P2 CONN_5
+  ( 1 /SPEAKER )
+  ( 2 /DCF_PON )
+  ( 3 VSS )
+  ( 4 /DCF_DATA )
+  ( 5 VSS )
+ )
+ ( /4D696D5E PIN_ARRAY_5x1 P3 CONN_5
+  ( 1 VDD )
+  ( 2 VDD )
+  ( 3 /LED_B )
+  ( 4 /LED_G )
+  ( 5 /LED_R )
+ )
+ ( /4D696D64 PIN_ARRAY_5x1 P4 CONN_5
+  ( 1 /PLUS__/_FREQ3 )
+  ( 2 /MINUS_/_FREQ2 )
+  ( 3 /SAVE___/_FREQ1 )
+  ( 4 /SELECT_/_FREQ0 )
+  ( 5 /MIC_SELECT )
+ )
+ ( /4D680F2F Wanne_10x2_HM P5 LCD_CONN
+  ( 1 /LED- )
+  ( 2 VDD )
+  ( 3 /V_OUT )
+  ( 4 /LCD_RESET )
+  ( 5 /LCD_CHIP_SELECT_2 )
+  ( 6 /LCD_CHIP_SELECT_1 )
+  ( 7 /LCD_DB7 )
+  ( 8 /LCD_DB6 )
+  ( 9 /LCD_DB5 )
+  ( 10 /LCD_DB4 )
+  ( 11 /LCD_DB3 )
+  ( 12 /LCD_DB2 )
+  ( 13 /LCD_DB1 )
+  ( 14 /LCD_DB0 )
+  ( 15 /LCD_ENABLE )
+  ( 16 /LCD_READ/nWRITE )
+  ( 17 /LCD_REGISTER_SELECT )
+  ( 18 /V_0 )
+  ( 19 VDD )
+  ( 20 VSS )
+ )
+ ( /4ED7D3DB Wanne_3x2_HM P6 CONN_3X2
+  ( 1 //MCLR )
+  ( 2 VDD )
+  ( 3 /PGD )
+  ( 4 VSS )
+  ( 5 /PGC )
+  ( 6 VSS )
+ )
+ ( /4DD6BC1E 1pin_smd P7 CONN_1
+  ( 1 /LED- )
+ )
+ ( /4D6961ED TO92-123 Q1 BC338
+  ( 1 /LED- )
+  ( 2 N-000039 )
+  ( 3 VSS )
+ )
+ ( /4EDA5B16 SM1206 R1 47k
+  ( 1 VDD )
+  ( 2 N-000046 )
+ )
+ ( /4EDA5847 SM1206 R2 100
+  ( 1 VSS )
+  ( 2 N-000028 )
+ )
+ ( /4D696337 SM1206 R3 1k
+  ( 1 N-000039 )
+  ( 2 /LCD_LIGHT )
+ )
+ ( /4D69646A RV2 RV1 10k
+  ( 1 /V_OUT )
+  ( 2 /V_0 )
+  ( 3 VSS )
+ )
+ ( /4D603879 SW_PUSH_SMALL S1 Reset
+  ( 1 N-000028 )
+  ( 2 //MCLR )
+ )
+ ( /4ED7D0A2 TQFP44 U1 PIC18F4680TQFP
+  ( 1 /LED_SHIFT_OUT )
+  ( 2 /LCD_DB4 )
+  ( 3 /LCD_DB5 )
+  ( 4 /LCD_DB6 )
+  ( 5 /LCD_DB7 )
+  ( 6 VSS )
+  ( 7 VDD )
+  ( 8 /LED_B )
+  ( 9 /LED_G )
+  ( 10 /LED_R )
+  ( 11 /LCD_REGISTER_SELECT )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /LCD_READ/nWRITE )
+  ( 15 /LCD_ENABLE )
+  ( 16 /PGC )
+  ( 17 /PGD )
+  ( 18 //MCLR )
+  ( 19 /LCD_RESET )
+  ( 20 /LCD_LIGHT )
+  ( 21 /PLUS__/_FREQ3 )
+  ( 22 /MINUS_/_FREQ2 )
+  ( 23 /SAVE___/_FREQ1 )
+  ( 24 /SELECT_/_FREQ0 )
+  ( 25 /MIC_SELECT )
+  ( 26 /LCD_CHIP_SELECT_1 )
+  ( 27 /LCD_CHIP_SELECT_2 )
+  ( 28 VDD )
+  ( 29 VSS )
+  ( 30 N-000047 )
+  ( 31 N-000043 )
+  ( 32 /DCF_DATA )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 /DCF_PON )
+  ( 36 /SPEAKER )
+  ( 37 /SPARE )
+  ( 38 /LCD_DB0 )
+  ( 39 /LCD_DB1 )
+  ( 40 /LCD_DB2 )
+  ( 41 /LCD_DB3 )
+  ( 42 /LED_ENABLE )
+  ( 43 /LED_LATCH_ENABLE )
+  ( 44 /LED_SERIAL_CLOCK )
+ )
+ ( /4D6023AB crystal_hc-49u X1 10MHz
+  ( 1 N-000047 )
+  ( 2 N-000043 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

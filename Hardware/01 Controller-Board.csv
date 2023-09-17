@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R1,R1";"R4-LARGE_PADS";2;"1k";;;
+2;"P3,P3";"Wanne_5x2_HM";2;"JTAG_CON";;;
+3;"P1,P1";"Wanne_10x2_HM";2;"LCD_CONN";;;
+4;"Q1,Q1";"TO92-123";2;"BC338";;;
+5;"S1,S1";"SW_PUSH_SMALL";2;"Reset";;;
+6;"R2,R2";"R4-LARGE_PADS";2;"4k7";;;
+7;"RV1,RV1";"PT15_HM_PIHER";2;"10k";;;
+8;"P4,P5,P6,P7,P7,P6,P5,P4";"pin_strip_5";8;"CONN_5";;;
+9;"X1,X1";"HC-49V";2;"20MHz";;;
+10;"U1,U1";"DIP-40__600_ELL";2;"ATM644P";;;
+11;"C4,C4";"CP_5x11mm";2;"100µ";;;
+12;"C1,C1";"C2";2;"100n";;;
+13;"C5,C5";"C2";2;"470n";;;
+14;"C2,C3,C3,C2";"C1";4;"22p";;;
+15;"P2,P2";"1pin_smd";2;"CONN_1";;;

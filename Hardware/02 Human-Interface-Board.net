@@ -1,0 +1,259 @@
+# EESchema Netlist Version 1.1 created  Sat 07 May 2011 18:24:24 CEST
+(
+ ( /4DC50190 $noname  C3 100n {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /4DC4E790 $noname  R3 4k7 {Lib=R}
+  (    1 VDD )
+  (    2 /Taste1 )
+ )
+ ( /4DC4E78F $noname  R5 4k7 {Lib=R}
+  (    1 VDD )
+  (    2 /Taste3 )
+ )
+ ( /4DC4E789 $noname  R4 4k7 {Lib=R}
+  (    1 VDD )
+  (    2 /Taste2 )
+ )
+ ( /4DC4E5F9 $noname  P2 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /LED_Freq )
+  (    2 /Taste2 )
+  (    3 /Taste1 )
+  (    4 /Taste3 )
+  (    5 /Taste0 )
+  (    6 /MIC )
+  (    7 VDD )
+  (    8 /Speaker )
+  (    9 VSS )
+  (   10 VSS )
+ )
+ ( /4DC4E5D0 $noname  D1 LED {Lib=LED}
+  (    1 VDD )
+  (    2 N-000013 )
+ )
+ ( /4DC4E5C1 $noname  R2 4k7 {Lib=R}
+  (    1 VDD )
+  (    2 /Taste0 )
+ )
+ ( /4DC4E5B3 $noname  R1 150 {Lib=R}
+  (    1 N-000013 )
+  (    2 /LED_Freq )
+ )
+ ( /4DC4E5AC $noname  R7 10k {Lib=R}
+  (    1 VDD )
+  (    2 /MIC )
+ )
+ ( /4DC4E5A1 $noname  P1 Speaker {Lib=CONN_2}
+  (    1 N-000018 )
+  (    2 VSS )
+ )
+ ( /4DC4E575 $noname  R6 10 {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000014 )
+ )
+ ( /4DC4E556 $noname  RV1 POTIALPS_10k {Lib=POTIALPS}
+  (    1 N-000015 )
+  (    2 N-000016 )
+  (    3 VSS )
+  (    4 VSS )
+  (    5 VSS )
+ )
+ ( /4DC4E535 $noname  C2 220µ {Lib=CP1}
+  (    1 N-000017 )
+  (    2 N-000018 )
+ )
+ ( /4DC4E4E8 $noname  U1 LM386_ {Lib=LM386_}
+  (    1 ? )
+  (    2 VSS )
+  (    3 N-000016 )
+  (    4 VSS )
+  (    5 N-000017 )
+  (    6 VDD )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4DC4E4BD $noname  C4 47n {Lib=C}
+  (    1 N-000014 )
+  (    2 VSS )
+ )
+ ( /4DC4E4AF $noname  C1 220n {Lib=C}
+  (    1 /Speaker )
+  (    2 N-000015 )
+ )
+ ( /4DC4E311 $noname  SW3 Select {Lib=SPST}
+  (    1 VSS )
+  (    2 /Taste2 )
+ )
+ ( /4DC4E30F $noname  SW4 Save {Lib=SPST}
+  (    1 VSS )
+  (    2 /Taste3 )
+ )
+ ( /4DC4E30B $noname  SW2 Minus {Lib=SPST}
+  (    1 VSS )
+  (    2 /Taste1 )
+ )
+ ( /4DC4E306 $noname  SW1 Plus {Lib=SPST}
+  (    1 VSS )
+  (    2 /Taste0 )
+ )
+ ( /4DC4E27A $noname  Q1 ELEKTRETMIC {Lib=ELEKTRETMIC}
+  (    1 /MIC )
+  (    2 VSS )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VSS" "VSS"
+ C4 2
+ U1 4
+ U1 2
+ RV1 3
+ P1 2
+ RV1 4
+ RV1 5
+ P2 10
+ P2 9
+ Q1 2
+ SW1 1
+ SW2 1
+ SW4 1
+ SW3 1
+ C3 2
+Net 2 "/LED_Freq" "LED_Freq"
+ P2 1
+ R1 2
+Net 3 "/Taste2" "Taste2"
+ R4 2
+ SW3 2
+ P2 2
+Net 4 "/Taste1" "Taste1"
+ R3 2
+ P2 3
+ SW2 2
+Net 5 "/Taste3" "Taste3"
+ P2 4
+ SW4 2
+ R5 2
+Net 6 "/Taste0" "Taste0"
+ R2 2
+ P2 5
+ SW1 2
+Net 7 "/MIC" "MIC"
+ R7 2
+ Q1 1
+ P2 6
+Net 11 "VDD" "VDD"
+ R3 1
+ C3 1
+ R4 1
+ R5 1
+ P2 7
+ D1 1
+ R2 1
+ U1 6
+ R7 1
+Net 12 "/Speaker" "Speaker"
+ P2 8
+ C1 1
+Net 13 "" ""
+ D1 2
+ R1 1
+Net 14 "" ""
+ R6 2
+ C4 1
+Net 15 "" ""
+ C1 2
+ RV1 1
+Net 16 "" ""
+ RV1 2
+ U1 3
+Net 17 "" ""
+ U1 5
+ C2 1
+ R6 1
+Net 18 "" ""
+ C2 2
+ P1 1
+}
+#End

@@ -1,0 +1,145 @@
+# EESchema Netlist Version 1.1 created  Thu 17 Nov 2011 15:47:39 CET
+(
+ ( /4DD2E16F $noname  P19 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+ ( /4DD2E16E $noname  P21 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /4DD2E16D $noname  P29 CONN_1 {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+ ( /4DD2E16C $noname  P25 CONN_1 {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+ ( /4DD2E16B $noname  P23 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /4DD2E16A $noname  P31 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+ ( /4DD2E169 $noname  P33 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+ ( /4DD2E168 $noname  P27 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /4DD2E167 $noname  D4 TRIPLE_LED_CM {Lib=TRIPLE_LED_CM}
+  (    1 N-000003 )
+  (    2 N-000002 )
+  (    3 N-000001 )
+  (    4 N-000004 )
+ )
+ ( /4DD2E166 $noname  D2 TRIPLE_LED_CM {Lib=TRIPLE_LED_CM}
+  (    1 N-000011 )
+  (    2 N-000012 )
+  (    3 N-000009 )
+  (    4 N-000010 )
+ )
+ ( /4DD2E165 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000012 )
+ )
+ ( /4DD2E164 $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 N-000011 )
+ )
+ ( /4DD2E163 $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 N-000011 )
+ )
+ ( /4DD2E162 $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4DD2E161 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4DD2E160 $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4DD2E15F $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4DD2E15E $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /4DD2E151 $noname  P18 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4DD2E09E $noname  P20 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4DD2E09D $noname  P28 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DD2E09C $noname  P24 CONN_1 {Lib=CONN_1}
+  (    1 N-000005 )
+ )
+ ( /4DD2E095 $noname  P22 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4DD2E091 $noname  P30 CONN_1 {Lib=CONN_1}
+  (    1 N-000007 )
+ )
+ ( /4DD2E08F $noname  P32 CONN_1 {Lib=CONN_1}
+  (    1 N-000007 )
+ )
+ ( /4DD2E085 $noname  P26 CONN_1 {Lib=CONN_1}
+  (    1 N-000006 )
+ )
+ ( /4DD2E039 $noname  D3 TRIPLE_LED_CM {Lib=TRIPLE_LED_CM}
+  (    1 N-000007 )
+  (    2 N-000006 )
+  (    3 N-000005 )
+  (    4 N-000008 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ D4 3
+ P29 1
+ P25 1
+Net 2 "" ""
+ P27 1
+ D4 2
+Net 3 "" ""
+ P31 1
+ P19 1
+ P33 1
+ D4 1
+Net 4 "" ""
+ D4 4
+ P23 1
+ P21 1
+Net 5 "" ""
+ P24 1
+ P28 1
+ D3 3
+Net 6 "" ""
+ P26 1
+ D3 2
+Net 7 "" ""
+ D3 1
+ P30 1
+ P32 1
+Net 8 "" ""
+ P18 1
+ P20 1
+ P22 1
+ D3 4
+Net 9 "" ""
+ P1 1
+ P11 1
+ P7 1
+ D2 3
+Net 10 "" ""
+ D2 4
+ P5 1
+ P3 1
+Net 11 "" ""
+ P15 1
+ P13 1
+ D2 1
+Net 12 "" ""
+ D2 2
+ P9 1
+}
+#End

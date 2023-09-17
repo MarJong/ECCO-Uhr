@@ -1,0 +1,357 @@
+# EESchema Netlist Version 1.1 created  Sat 21 May 2011 16:39:09 CEST
+(
+ ( /4DD6BCFC $noname  C4 100µ {Lib=CP1}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /4DD6BC1E $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 /LED- )
+ )
+ ( /4D696D68 $noname  P7 CONN_5 {Lib=CONN_5}
+  (    1 /LED_ENABLE )
+  (    2 /LED_LATCH_ENABLE )
+  (    3 /LED_SHIFT_OUT )
+  (    4 /LED_SHIFT_IN )
+  (    5 /LED_SERIAL_CLOCK )
+ )
+ ( /4D696D64 $noname  P5 CONN_5 {Lib=CONN_5}
+  (    1 /MIC_SELECT )
+  (    2 /SELECT_/_FREQ0_ )
+  (    3 /SAVE___/_FREQ1 )
+  (    4 /MINUS_/_FREQ2 )
+  (    5 /PLUS__/_FREQ3 )
+ )
+ ( /4D696D61 $noname  P4 CONN_5 {Lib=CONN_5}
+  (    1 /SPEAKER )
+  (    2 /DCF_PON )
+  (    3 VSS )
+  (    4 /DCF_DATA )
+  (    5 VSS )
+ )
+ ( /4D696D5E $noname  P6 CONN_5 {Lib=CONN_5}
+  (    1 VDD )
+  (    2 VDD )
+  (    3 /LCD_DB2_/_LED_B )
+  (    4 /LCD_DB1_/_LED_G )
+  (    5 /LCD_DB0_/_LED_R )
+ )
+ ( /4D6964F6 $noname  C1 100n {Lib=C}
+  (    1 /V_0 )
+  (    2 VSS )
+ )
+ ( /4D69646A $noname  RV1 10k {Lib=POT}
+  (    1 /V_OUT )
+  (    2 /V_0 )
+  (    3 VSS )
+ )
+ ( /4D696337 $noname  R1 1k {Lib=R}
+  (    1 N-000024 )
+  (    2 /LCD_LIGHT )
+ )
+ ( /4D6961ED $noname  Q1 BC338 {Lib=NPN_CBE}
+  (    1 /LED- )
+  (    2 N-000024 )
+  (    3 VSS )
+ )
+ ( /4D680F2F $noname  P1 LCD_CONN {Lib=CONN_10X2}
+  (    1 /LED- )
+  (    2 VDD )
+  (    3 /V_OUT )
+  (    4 /LCD_RESET )
+  (    5 /LCD_CHIP_SELECT_2 )
+  (    6 /LCD_CHIP_SELECT_1 )
+  (    7 /LCD_DB7 )
+  (    8 /LCD_DB6 )
+  (    9 /LCD_DB5 )
+  (   10 /LCD_DB4 )
+  (   11 /LCD_DB3 )
+  (   12 /LCD_DB2_/_LED_B )
+  (   13 /LCD_DB1_/_LED_G )
+  (   14 /LCD_DB0_/_LED_R )
+  (   15 /LCD_ENABLE )
+  (   16 /LCD_READ/nWRITE )
+  (   17 /LCD_REGISTER_SELECT )
+  (   18 /V_0 )
+  (   19 VDD )
+  (   20 VSS )
+ )
+ ( /4D662915 $noname  P3 JTAG_CON {Lib=CONN_5X2}
+  (    1 VSS )
+  (    2 /JTAG_TEST_DATA_IN )
+  (    3 VSS )
+  (    4 VSS )
+  (    5 /nRESET )
+  (    6 /JTAG_TEST_MODE_SELECT )
+  (    7 VDD )
+  (    8 /JTAG_TEST_DATA_OUT )
+  (    9 VSS )
+  (   10 /JTAG_TEST_CLOCK )
+ )
+ ( /4D652D0B $noname  C5 470n {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /4D603879 $noname  S1 Reset {Lib=SWITCH_A}
+  (    1 /nRESET )
+  (    2 VSS )
+ )
+ ( /4D60381A $noname  R2 4k7 {Lib=R}
+  (    1 VDD )
+  (    2 /nRESET )
+ )
+ ( /4D60370A $noname  C3 22p {Lib=C}
+  (    1 VSS )
+  (    2 N-000026 )
+ )
+ ( /4D603705 $noname  C2 22p {Lib=C}
+  (    1 VSS )
+  (    2 N-000038 )
+ )
+ ( /4D6023AB $noname  X1 20MHz {Lib=CRYSTAL}
+  (    1 N-000038 )
+  (    2 N-000026 )
+ )
+ ( /4D6010C6 $noname  U1 ATM644P {Lib=ATM644P}
+  (    1 /LCD_ENABLE )
+  (    2 /LCD_RESET )
+  (    3 /LED_ENABLE )
+  (    4 /SPEAKER )
+  (    5 /LED_LATCH_ENABLE )
+  (    6 /LED_SHIFT_OUT )
+  (    7 /LED_SHIFT_IN )
+  (    8 /LED_SERIAL_CLOCK )
+  (    9 /nRESET )
+  (   10 VDD )
+  (   11 VSS )
+  (   12 N-000026 )
+  (   13 N-000038 )
+  (   14 /LCD_DB0_/_LED_R )
+  (   15 /LCD_DB1_/_LED_G )
+  (   16 /LCD_DB2_/_LED_B )
+  (   17 /LCD_DB3 )
+  (   18 /LCD_DB4 )
+  (   19 /LCD_DB5 )
+  (   20 /LCD_DB6 )
+  (   21 /LCD_DB7 )
+  (   22 /LCD_CHIP_SELECT_1 )
+  (   23 /LCD_CHIP_SELECT_2 )
+  (   24 /JTAG_TEST_CLOCK )
+  (   25 /JTAG_TEST_MODE_SELECT )
+  (   26 /JTAG_TEST_DATA_OUT )
+  (   27 /JTAG_TEST_DATA_IN )
+  (   28 /LCD_REGISTER_SELECT )
+  (   29 /LCD_READ/nWRITE )
+  (   30 VDD )
+  (   31 VSS )
+  (   32 VDD )
+  (   33 /PLUS__/_FREQ3 )
+  (   34 /MINUS_/_FREQ2 )
+  (   35 /SAVE___/_FREQ1 )
+  (   36 /SELECT_/_FREQ0_ )
+  (   37 /MIC_SELECT )
+  (   38 /LCD_LIGHT )
+  (   39 /DCF_DATA )
+  (   40 /DCF_PON )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/LCD DB0 / LED R" "LCD DB0 / LED R"
+ P6 5
+ U1 14
+ P1 14
+Net 2 "/LCD DB1 / LED G" "LCD DB1 / LED G"
+ P6 4
+ U1 15
+ P1 13
+Net 3 "/LCD DB2 / LED B" "LCD DB2 / LED B"
+ U1 16
+ P6 3
+ P1 12
+Net 4 "/LCD DB4" "LCD DB4"
+ U1 18
+ P1 10
+Net 5 "/LCD DB5" "LCD DB5"
+ U1 19
+ P1 9
+Net 6 "/LCD CHIP SELECT 1" "LCD CHIP SELECT 1"
+ P1 6
+ U1 22
+Net 7 "/LCD CHIP SELECT 2" "LCD CHIP SELECT 2"
+ U1 23
+ P1 5
+Net 8 "/LED-" "LED-"
+ P1 1
+ P2 1
+ Q1 1
+Net 9 "VSS" "VSS"
+ C5 2
+ S1 2
+ P3 9
+ C3 1
+ C2 1
+ C4 2
+ P1 20
+ P3 3
+ U1 11
+ U1 31
+ P3 1
+ Q1 3
+ P4 3
+ P4 5
+ C1 2
+ RV1 3
+ P3 4
+Net 10 "VDD" "VDD"
+ P3 7
+ R2 1
+ P6 2
+ C5 1
+ P6 1
+ C4 1
+ P1 19
+ P1 2
+ U1 10
+ U1 32
+ U1 30
+Net 11 "/LCD READ/nWRITE" "LCD READ/nWRITE"
+ P1 16
+ U1 29
+Net 12 "/LCD DB6" "LCD DB6"
+ P1 8
+ U1 20
+Net 13 "/nRESET" "nRESET"
+ R2 2
+ S1 1
+ U1 9
+ P3 5
+Net 14 "/JTAG TEST DATA IN" "JTAG TEST DATA IN"
+ P3 2
+ U1 27
+Net 15 "/JTAG TEST CLOCK" "JTAG TEST CLOCK"
+ U1 24
+ P3 10
+Net 16 "/JTAG TEST MODE SELECT" "JTAG TEST MODE SELECT"
+ P3 6
+ U1 25
+Net 17 "/LCD REGISTER SELECT" "LCD REGISTER SELECT"
+ U1 28
+ P1 17
+Net 18 "/V OUT" "V OUT"
+ P1 3
+ RV1 1
+Net 19 "/V 0" "V 0"
+ C1 1
+ P1 18
+ RV1 2
+Net 20 "/LCD RESET" "LCD RESET"
+ P1 4
+ U1 2
+Net 21 "/LCD DB7" "LCD DB7"
+ U1 21
+ P1 7
+Net 22 "/LCD DB3" "LCD DB3"
+ U1 17
+ P1 11
+Net 23 "/LCD ENABLE" "LCD ENABLE"
+ P1 15
+ U1 1
+Net 24 "" ""
+ Q1 2
+ R1 1
+Net 25 "/LCD LIGHT" "LCD LIGHT"
+ R1 2
+ U1 38
+Net 26 "" ""
+ U1 12
+ C3 2
+ X1 2
+Net 27 "/LED SHIFT OUT" "LED SHIFT OUT"
+ U1 6
+ P7 3
+Net 28 "/LED SERIAL CLOCK" "LED SERIAL CLOCK"
+ P7 5
+ U1 8
+Net 29 "/JTAG TEST DATA OUT" "JTAG TEST DATA OUT"
+ U1 26
+ P3 8
+Net 30 "/DCF PON" "DCF PON"
+ P4 2
+ U1 40
+Net 31 "/DCF DATA" "DCF DATA"
+ P4 4
+ U1 39
+Net 32 "/MIC SELECT" "MIC SELECT"
+ P5 1
+ U1 37
+Net 33 "/SELECT / FREQ0 " "SELECT / FREQ0 "
+ U1 36
+ P5 2
+Net 34 "/SAVE   / FREQ1" "SAVE   / FREQ1"
+ P5 3
+ U1 35
+Net 35 "/MINUS / FREQ2" "MINUS / FREQ2"
+ P5 4
+ U1 34
+Net 36 "/PLUS  / FREQ3" "PLUS  / FREQ3"
+ U1 33
+ P5 5
+Net 37 "/SPEAKER" "SPEAKER"
+ U1 4
+ P4 1
+Net 38 "" ""
+ U1 13
+ C2 2
+ X1 1
+Net 39 "/LED ENABLE" "LED ENABLE"
+ U1 3
+ P7 1
+Net 40 "/LED LATCH ENABLE" "LED LATCH ENABLE"
+ P7 2
+ U1 5
+Net 41 "/LED SHIFT IN" "LED SHIFT IN"
+ U1 7
+ P7 4
+}
+#End

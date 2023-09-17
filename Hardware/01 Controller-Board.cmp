@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPCB (2011-03-18 BZR 2904)-stable date = Sat 21 May 2011 11:53:40 CEST
+
+BeginCmp
+TimeStamp = /4D6964F6;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D603705;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D60370A;
+Reference = C3;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD6BCFC;
+Reference = C4;
+ValeurCmp = 100µ;
+IdModule  = CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D652D0B;
+Reference = C5;
+ValeurCmp = 470n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D680F2F;
+Reference = P1;
+ValeurCmp = LCD_CONN;
+IdModule  = Wanne_10x2_HM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD6BC1E;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D662915;
+Reference = P3;
+ValeurCmp = JTAG_CON;
+IdModule  = Wanne_5x2_HM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D696D61;
+Reference = P4;
+ValeurCmp = CONN_5;
+IdModule  = pin_strip_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D696D64;
+Reference = P5;
+ValeurCmp = CONN_5;
+IdModule  = pin_strip_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D696D5E;
+Reference = P6;
+ValeurCmp = CONN_5;
+IdModule  = pin_strip_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D696D68;
+Reference = P7;
+ValeurCmp = CONN_5;
+IdModule  = pin_strip_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D6961ED;
+Reference = Q1;
+ValeurCmp = BC338;
+IdModule  = TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D696337;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D60381A;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D69646A;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = PT15_HM_PIHER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D603879;
+Reference = S1;
+ValeurCmp = Reset;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D6010C6;
+Reference = U1;
+ValeurCmp = ATM644P;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D6023AB;
+Reference = X1;
+ValeurCmp = 20MHz;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe
